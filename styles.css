@@ -1,0 +1,81 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the audio player container */
+.audio-player {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #898f8a3d;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Style the audio player title */
+.audio-player h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #58696a;
+}
+
+/* Style the audio controls */
+audio {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style the download button */
+button {
+    background-color: #87a2bf;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the instructions section */
+.instructions {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+.instructions h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.instructions ol {
+    list-style: decimal;
+    margin-left: 20px;
+}
+
+/* Add hover effect to list items */
+.instructions li:hover {
+    color: #998787a4;
+    font-weight: bold;
+}
+
+/* Add a subtle box shadow to the entire page */
+body {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
